@@ -7,7 +7,7 @@ config();
 
 const secret = process.env.DEPLOYER_SECRET_KEY;
 const wasmPath = resolve("contracts/live-poll/target/wasm32v1-none/release/live_poll.wasm");
-const stellarPath = resolve("stellar.exe");
+const stellarPath = "stellar";
 
 if (!secret) {
   throw new Error("DEPLOYER_SECRET_KEY is required. Add a funded Stellar testnet secret key to .env.local.");

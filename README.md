@@ -35,8 +35,8 @@ Each vote calls the Soroban contract, updates on-chain totals, emits a `vote` ev
 
 - **Public GitHub repository:** https://github.com/tripy-mehta/PulsePoll-Stellar-Live-Poll
 - **Live demo link:** https://pulse-poll-stellar-live-poll.vercel.app/
-- **Deployed contract address:** `CAT4BOL7HQQ7C37C7H3UEPBNSMPTVD65XBTKWOXGHG76YDL3RHVCI56M`
-- **Transaction hash of contract call:** `90d8f14cc1c0b018bbbd272c9abd9bce109d5819cffc52c4260820470986e487`
+- **Deployed contract address:** `CDYX63RTQASCYL6R7MXDADPQEFILKYJDZBAGQQ4SKJAZ6Y5NBE3EWBN2`
+- **Transaction hash of contract deployment:** `5fdbc0021ae05e0cebedaf787c14244749218fa527853524ab33062c49a1edc2`
 
 ### Site Demonstration
 
