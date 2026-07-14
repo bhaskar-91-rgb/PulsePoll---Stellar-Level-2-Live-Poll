@@ -33,30 +33,19 @@ Each vote calls the Soroban contract, updates on-chain totals, emits a `vote` ev
 
 ## Submission Evidence
 
-- **Public GitHub repository:** https://github.com/tripy-mehta/PulsePoll-Stellar-Live-Poll
-- **Live demo link:** https://pulse-poll-stellar-live-poll.vercel.app/
+- **Public GitHub repository:** https://github.com/bhaskar-91-rgb/PulsePoll---Stellar-Level-2-Live-Poll
+- **Live demo link:** https://pulse-poll-stellar-level-2-live-pol.vercel.app/
 - **Deployed contract address:** `CDYX63RTQASCYL6R7MXDADPQEFILKYJDZBAGQQ4SKJAZ6Y5NBE3EWBN2`
 - **Transaction hash of contract deployment:** `5fdbc0021ae05e0cebedaf787c14244749218fa527853524ab33062c49a1edc2`
+- **Transaction hash of contract call:** `f6bf1d4dd6c32e37331c52676bd45ab70c1ee53db0a1f5b50d628e667f5b6c0e`
 
 ### Site Demonstration
 
-**Dashboard:**  
-![Dashboard](images/dashboard.png)
+**Successfully Voted:**  
+![Successfully Voted](images/voted.png)
 
 **Wallet Options:**  
-![Wallet Options](images/multiple%20wallet%20options.png)
-
-**Connected and Balance:**  
-![Connected and Balance](images/connected%20and%20balance.png)
-
-**Successfully Voted:**  
-![Successfully Voted](images/sucees%20voted.png)
-
-**Event Feed Sync:**  
-![Event Feed](images/event%20feed.png)
-
-**Hash Verified:**  
-![Hash Verified](images/hash%20verified.png)
+![Wallet Options](images/wallet%20options.png)
 
 ---
 
