@@ -1,10 +1,16 @@
 :root {
-  color: #1e2528;
-  background: #f7f4ec;
+  color: #e2e8f0;
+  background: #0f172a;
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+  --accent: #8b5cf6;
+  --color-surface: #1e293b;
+  --color-border: #334155;
+  --color-text: #f8fafc;
+  --color-success: #10b981;
+  --color-accent: #3b82f6;
 }
 
 * {
@@ -16,9 +22,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background:
-    linear-gradient(120deg, rgba(42, 157, 143, 0.16), transparent 34%),
-    linear-gradient(300deg, rgba(231, 111, 81, 0.14), transparent 30%),
-    #f7f4ec;
+    linear-gradient(120deg, rgba(59, 130, 246, 0.15), transparent 34%),
+    linear-gradient(300deg, rgba(139, 92, 246, 0.15), transparent 30%),
+    #0f172a;
 }
 
 button,
@@ -55,9 +61,10 @@ button {
   justify-content: space-between;
   gap: 16px;
   padding: 16px;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.72);
+  border-radius: 12px;
+  background: rgba(30, 41, 59, 0.72);
   backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .brand-lockup,
@@ -124,7 +131,8 @@ h2 {
 .wallet-button {
   padding: 0 16px;
   color: #fff;
-  background: #264653;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  border-radius: 12px;
 }
 
 .workspace {
@@ -133,16 +141,17 @@ h2 {
   gap: 16px;
   margin-top: 16px;
   padding: 16px;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.48);
+  border-radius: 12px;
+  background: rgba(30, 41, 59, 0.48);
 }
 
 .control-panel,
 .results-panel,
 .feed-panel {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.82);
+  border-radius: 12px;
+  background: rgba(30, 41, 59, 0.82);
   padding: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .control-panel {
@@ -183,7 +192,7 @@ h2 {
 .feed-item p,
 .feed-item small,
 .empty {
-  color: #607176;
+  color: #94a3b8;
 }
 
 .subtle {
@@ -204,10 +213,11 @@ h2 {
   width: 100%;
   min-height: 72px;
   padding: 12px;
-  border-radius: 8px;
-  color: #1e2528;
-  background: #fff;
+  border-radius: 12px;
+  color: #f1f5f9;
+  background: #1e293b;
   text-align: left;
+  border: 1px solid rgba(255,255,255,0.08);
 }
 
 .option-card svg {
@@ -243,7 +253,8 @@ h2 {
 .vote-button {
   width: 100%;
   color: #fff;
-  background: #2a9d8f;
+  background: linear-gradient(135deg, #10b981, #059669);
+  border-radius: 12px;
 }
 
 .vote-button:disabled,
